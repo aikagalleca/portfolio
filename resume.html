@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+<!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+ <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<title>Galleca B. Villaflores | DMDP Finals Project</title>
+</head>
+
+<body>
+<!-- Navigation -->
+        <nav>
+            <!--Logo-->
+             <a href="index.html"><img src="images/gallecalogo.png" alt="Galleca Ville Logo" width="420px" height="150px"></a>
+            <!--Menu-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html" class="active">Resume</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                 </ul>
+            <!-- Bars -->
+	         <div class="toggle"></div>
+        </nav>
+
+<!-- pdf -->
+<div class="myresume">
+  <object data="images/resume.pdf" type="application/pdf" >
+    <embed src="images/resume.pdf" type="application/pdf" />
+</object>
+</div>
+
+<!-- footer -->
+<footer>
+    <!--heading-->
+ <p>DMDP Project</p>
+    <!--paragraph-->
+    <p>Galleca B. Villaflores | Tisa Cebu City</p>
+</footer>
+
+<!--Social Icons-->
+<div class="social">
+    <a href="https://www.facebook.com/aikagalleca/" target="_blank"><i class="fab fa-facebook-f"></i></a></a>
+    <a href="https://twitter.com/gallecabaylon" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/aikagalleca/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/gallecabaylon/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/c/AikaBaylon/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
+    <!-- JQuery -->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+
+</body>
+</html>

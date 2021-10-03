@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+<!-- Favicon -->
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+<!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+ <!--FontAwesome-->
+     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<title>Galleca B. Villaflores | DMDP Finals Project</title>
+</head>
+<body>
+
+<!-- Video background section -->
+    <video autoplay muted loop id="videoBG" poster="images/hotsparks.jpg">
+        <source src="images/firespark.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+<!-- Navigation -->
+    <section>
+        <nav>
+            <!--Logo-->
+             <a href="index.html"><img src="images/gallecalogo.png" alt="Galleca Ville Logo" width="420px" height="150px"></a>
+            <!--Menu-->
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                 </ul>
+            <!-- Bars -->
+	         <div class="toggle"></div>
+        </nav>
+  </section>
+
+<!-- Text -->
+    <div class="text-container">
+        <p>Hello,</p>
+        <p>I&#8217;M GALLECA V.</p>
+        <p>Experienced SEO Specialist <br>& WordPress Developer</p>
+        <button onclick="window.location='contact.html';" class="hire-btn">Hire me</button>
+        <button onclick="window.location='resume.html';" class="down-cv">Download CV</button>
+    </div>
+
+<!-- Model -->
+    <img class="model" src="images/aikagalleca.png" alt="Galleca Ville About Picture">  
+
+<!--About me-->
+<div class="about-container">
+		<img src="images/hello-there.png"/>
+		<div class="about-text">
+            <p>Hello My name is Galleca Villaflores. I’m an SEO specialist for more than 10 years and had developed proficient skills in doing not just basic SEO, but also fundamental SEO strategies to increase a website’s traffic, conversion and search engine placement.</p>
+            <p>Up to date with the latest Google algorithm strategies, I have a comprehensive knowledge in doing on page and off page optimization, content management, project management, website development, link building, and many others. Also, I have experienced doing Data Entry works, creating WordPress websites, creating Java programs and Magento, Shopify, Walmart, Jet product uploading.</p>
+		</div>
+	</div>
+
+<!--Social Icons-->
+    <div class="social">
+        <a href="https://www.facebook.com/aikagalleca/" target="_blank"><i class="fab fa-facebook-f"></i></a></a>
+        <a href="https://twitter.com/gallecabaylon" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/aikagalleca/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/gallecabaylon/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/c/AikaBaylon/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+   </div>
+
+ <!--JQUery-->
+ <script type="text/javascript" src="js/JQuery.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+     $('.toggle').click(function(){
+         $('.toggle').toggleClass('active')
+         $('nav').toggleClass('active')
+     })
+ })
+ </script>
+</body>
+</html>
